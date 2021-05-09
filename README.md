@@ -18,6 +18,10 @@ challenge_day4
 ```
 
 ```
-challege_day5
+challenge_day5
     > scrapping currency code. if user choose a country by selecting number, the program answer the currency code used by that country. 
 ```
+
+```
+challenge_day6
+    > scapping currency code and exchange rate. chooese countries by selecting country code number. and input money. the program calculate exchanged money automatically.
