@@ -6,38 +6,39 @@ from babel.numbers import format_currency
 os.system("clear")
 
 def input_code1():
-  try:
-    code1=input("Where are you from : ")
-    print(code1)
-    print(f"You live in {infos_filtered[int(code1)][0]}")
-    code1 = str(infos_filtered[int(code1)][2])
+  while(True):
+    try:
+      code1=input("Where are you from : ")
+      print(f"You live in {infos_filtered[int(code1)][0]}")
+      code1 = str(infos_filtered[int(code1)][2])
+      break
+      
     
-  
-  except ValueError:
-    print("Input code by number")
-    input_code1()
-    
-  except IndexError:
-    print("Input code in range of upper list")
-    input_code1()
+    except ValueError:
+      print("Input code by number")
+      
+      
+    except IndexError:
+      print("Input code in range of upper list")
 
   return code1
 
 def input_code2():
-  try:
-    code2=input("What country do you want to exchange : ")
-    print(code2)
-    print(f"You live in {infos_filtered[int(code2)][0]}")
-    code2 = str(infos_filtered[int(code2)][2])
-    
+  while(True):
+    try:
+      code2=input("What country do you want to exchange : ")
+      print(f"You live in {infos_filtered[int(code2)][0]}")
+      code2 = str(infos_filtered[int(code2)][2])
+      break
+      
 
-  except ValueError:
-    print("Input code by number")
-    input_code2()
-  
-  except IndexError:
-    print("Input code in range of upper list")
-    input_code2()
+    except ValueError:
+      print("Input code by number")
+      
+    
+    except IndexError:
+      print("Input code in range of upper list")
+      
 
   return code2
 
