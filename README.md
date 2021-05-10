@@ -25,3 +25,14 @@ challenge_day5
 ```
 challenge_day6
     > scapping currency code and exchange rate. chooese countries by selecting country code number. and input money. the program calculate exchanged money automatically.
+```
+
+```
+challenge day7
+    > holiday!
+```
+
+```
+challenge day8
+    > scrapping '알바천국'. get 'super brand' list(brand name, URL). and go to each URL, get every parttime job information. It's most exciting experience.
+```
