@@ -30,6 +30,7 @@ challenge_day6
 ```
 challenge day7
     > holiday!
+    > There is a mistake about day7. The file uploaded in github is part of 'challenge_day8'.
 ```
 
 ```
